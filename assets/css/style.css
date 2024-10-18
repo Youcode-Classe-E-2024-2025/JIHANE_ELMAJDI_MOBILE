@@ -3,7 +3,7 @@ body{
     margin: 0px;
 }
 
-       /********* Désigne du navigateur ***********/
+       /********* Désigne du navigation barre git ad***********/
 
 nav ul{
        display: flex;
@@ -56,7 +56,6 @@ flex-direction: row;
 justify-content: space-evenly;
 font-size: 30px;
 }
-
 
 
        /********* Désigne de l'image du support ***********/
