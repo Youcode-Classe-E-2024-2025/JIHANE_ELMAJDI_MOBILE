@@ -10,13 +10,12 @@
 </head>
 
   
-<body style="background-image: url(assets/images/support-home-banner-pc-vivo_a133269.jpg);">
+<body >
 
     <!--Les options de mon site-->
    <header>
         <nav>
-            <ul>
-                <li><a href="VIVO">VIVO</a></li>
+            <ul style="font-size: 40px;">
                 <li><a href="#Acceuil">Acceuil</a></li>
                 <li><a href="#Caracteristiques">Caractéristiques</a></li>
                 <li><a href="#Support">Support</a></li>
@@ -36,6 +35,7 @@
 
     <section id="Caracteristiques">
         <h1>Ecran</h1>
+    <div>
         <ul>
             <li>Taille</li>
             <li>6,51 pouces</li>
@@ -48,6 +48,7 @@
             <li>Ecran tactile</li>
             <li>Capacitif multi-touch</li>
         </ul> 
+    </div>
     </section>
 
     <hr>    
@@ -58,31 +59,39 @@
         <img src="assets/images/IT-Support.png" alt="Notre support">
 
         <form>
-            <label for="Nom et Prenom">Nom et Prénom</label>
+            <div>
+            <label for="Nom et Prenom">Nom et Prénom:</label>
             <input type="text" id="Nom et Prenom" placeholder="Enrez votre Nom et Prénom">
 
-            <label for="Email ou numero de telephone">Email ou numero de telephone</label>
+            <label for="Email ou numero de telephone">Email ou numero de telephone:</label>
             <input type="text" id="Email ou numero de telephone" placeholder="Entrez votre Email ou numéro de téléphone">
 
-            <label for="Description">Description</label>
+            <label for="Description">Description:</label>
             <textarea name="Description" id="Support" rows="10" cols="30" placeholder="Entrez un message..."></textarea>
 
-            <input type="submit" value="submit">
-
+            <div class="submit" style="display: flex; justify-content: center;">
+                <input type="submit" value="submit">
+            </div>
+            </div>
         </form>
     </section>
 
      <!--Footer de mon site-->
 
-    <footer>
+    <footer style="display: flex;flex-direction: row; justify-content: space-between;">
 
-    <p>Rejoingez nouS</p>
-    <p>télephone</p>
-    <p>Adresse</p>
-      <img src="assets/images/f79920f4cb34986684e29df42ec0cebe-removebg-preview (2).png" alt="Facbook">
-      <img src="assets/images/1ed6e0a9e69176a5fdb7e090a1046b86-removebg-preview (2).png" alt="Instagram">
-      <img src="assets/images/Logo_Twitter-removebg-preview (1).png" alt="Twitter">
+        <div style="margin-left: 30px;">  
+            <p>Rejoingez nous:</p>
+            <img src="assets/images/f79920f4cb34986684e29df42ec0cebe-removebg-preview (2).png" alt="Facbook">
+            <img src="assets/images/1ed6e0a9e69176a5fdb7e090a1046b86-removebg-preview (2).png" alt="Instagram">
+            <img src="assets/images/Logo_Twitter-removebg-preview (1).png" alt="Twitter">
+        </div>
+
+        <div style="margin-right: 30px;">
+            <p>télephone : 0628209704</p>
+            <p>Adresse : Safi/sidibouzide</p>
+        </div> 
     </footer>
-
+     
 </body>
 </html>
